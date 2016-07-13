@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div{
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    position: absolute;
+}
+
+#d1{
+    background-color: red;
+    left: 0px; 
+    top:0px;
+}
+
+#d2{
+    background-color: blue; 
+    right: 0px;
+    top:200px;
+}
+
+#d3{
+    background-color: green;
+    top:400px;
+    left:0px;
+}
