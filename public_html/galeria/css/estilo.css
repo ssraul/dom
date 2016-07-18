@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contenedor{
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    background: bisque;
+}

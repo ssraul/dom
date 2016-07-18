@@ -16,24 +16,38 @@ var calculadora = (function () {
 
     function tecla(e) {
         var teclaMarcada = e.currentTarget.innerHTML;
-        console.log(teclaMarcada); 
-        pantalla.innerHTML += teclaMarcada;
-        
-        
-        if (teclaMarcada==="C") {
-            reset();
+        pantalla.innerHTML = teclaMarcada;
+
+
+        switch (teclaMarcada) {
+            case "+":
+            case "-":
+            case "/":
+            case "*":
+                operacio = teclaMarcada;
+                memoria = parseFloat(pantalla.innerHTML);
+                
+                break;
+            case "CE":
+                reset();
+                break;
+            case "=":
+                reset();
+                break;    
+
+            default:
+
+                break;
         }
 
     }
-
+    
 
     function reset() {
         if (pantalla.innerHTML !== 0)
             pantalla.innerHTML = 0;
     }
-
-
-
+ 
     return{
         initCalculator: privateCalcul
     };
