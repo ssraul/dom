@@ -14,8 +14,38 @@ h1{
 }
 
 #contenedor{
-    width: 25rem;
-    height: 25rem;
+    width: 800px;
+    height: 600px;
     margin: auto;
     background: bisque;
+}
+
+#i{
+    background-color: #aaa;
+    color:bisque;
+    padding: 1rem;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 18.75rem;
+    border-radius: 25px;
+    margin-left: 3rem;
+}
+
+#d{
+    background-color: #aaa;
+    color:bisque;
+    padding: 1rem;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top:16rem;
+    left:44rem;
+    border-radius: 25px;
+}
+
+li:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    border-radius: 25px;
 }

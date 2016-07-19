@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <title>Resultats electorals</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="css/eleccions.css" type="text/css" />
+        <script type="text/javascript" src="js/eleccions.js" charset="utf-8">
+        </script>
+    </head>
+    <body>
+        <h1>Resultats electorals</h1>
+        <form>
+            <fieldset>
+                <p><label>Partit
+                        <select name="partit" required="">
+                            <option></option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                        </select>
+                    </label>
+                </p>
+                <p>Resultat <span id="resultat"></span></p>
+                <p><input type="submit" value="consultar" /></p>
+                <p id="resultat"></p>                
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 20rem;
+    margin: 2rem auto;
+    line-height: 1.5em;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #63819b;
+    margin-bottom: 2rem;
+    text-shadow: #bbb 0.3rem 0.3rem 0.1rem;
+}
+p {
+    font-size: 1rem;
+}
+fieldset{
+    border-style: solid;
+    border-color: #63819b;
+    border-width: 0.3rem;
+    padding: 1rem;
+}
+span, select{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #63819b;
+    padding: 0 0.5rem;
+    display: inline-block;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 1.1rem;
+}
+
+/*para hacer el loader de carga del ajax*/
+#loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: none; /*per proves posem  block*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(../image/382.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
